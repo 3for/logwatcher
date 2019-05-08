@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/aravindavk/logwatcher.svg?branch=master)](https://travis-ci.org/aravindavk/logwatcher)
 
+logwathcer运行期间，使用vim编辑log文件wq保存后，会加载该文件所有行内容；
+logwatcher暂停，监控log4j实时日志，再启动logwathcer，暂停期间的日志会丢失。启动后的日志可实时watch到。
+
 A [Rust](https://www.rust-lang.org/) library to watch the log files.
 
 Note: Tested only in Linux
